@@ -1,17 +1,17 @@
 # PythonSeleniumIEDriverSetup
 modernIE向けにpython2.7、selenium、IEDriverの自動セットアップをおこないます
 
-必要なもの
-startcmd.bat
+##必要なもの
+startcmd.bat  
 
-PythonIEDriverInstall.ps1
+PythonIEDriverInstall.ps1  
 
-IEDriverServer.exe
+IEDriverServer.exe  
 
 updatecmd.bat  
 
 
-
+##やり方
 1.まず、modernIEの起動完了後、管理->仮想マシンの設定からネットワークアダプタを追加してください。また、この時のネットワーク設定はNATをしてください。
 
 2.http://selenium-release.storage.googleapis.com/ からIEDriverの最新版をダウンロードしてください。
